@@ -1,0 +1,22 @@
+{
+    "products": [
+      {
+        "id": "nitendo1",
+        "title": "Nintendo",
+        "price": 40,
+        "image": "../img/products/nitendo-console.png"
+      }
+      {
+        "id": "ps52",
+        "title": "PS5 DUAL",
+        "price": 50,
+        "image": "../img/ps5-dual-console.png"
+      },
+      {
+        "id": "atari3",
+        "title": "Atari",
+        "price": 80,
+        "image":  "../img/atari-console.png"
+      }
+    ]
+  }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./img/logo.svg" alt="logo AluraGeek" /><br>
+        <p> | AluraGeek</p>
+      </div>
+    </header>
+
+    <section class="container">
+    <div>
+      <h1 class="title">ADICONAR PRODUTO!</h1>
+      <form action="">
+        <input type="text" placeholder="nome..." id="input1" />
+        <input type="text" placeholder="valor..." id="input2" />
+        <input type="text" placeholder="imagem..." id="input3" />
+
+        <div>
+          <button type="button" id="add">Guardar</button>
+          <button type="button" id="clear">Limpar</button>
+        </div>
+    </div>
+      </form>
+
+    <div>
+      <div class="title">MEUS PRODUTOS:</div>
+
+      <div class="cardContainer" id="cardContainer">
+        <!-- gerando pelo javascript -->
+      </div>
+
+    </div>
+    </section>
+
+   
+    <footer>
+      <section>
+        <div>
+          <img src="./img/logo.svg" alt="logo AluraGeek" /><br>
+          <h1> | AluraGeek</h1>
+        </div>
+        <p>DESENVOLVIDO POR MORGHANA ALVES</p>
+        <p>ALURA - 2025 </p>
+      </section>
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/add.product.js"></script>
+  <script src="./js/delete.product.js"></script>
+</html>

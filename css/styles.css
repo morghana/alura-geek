@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    height: 100px;
+    background-color: #9303a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header > div > img {
+    width: 110px;
+  }
+  
+  header > div > p {
+    font-weight: bold;
+    color: #ffff;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  .title {
+    margin: auto;
+    text-align: center;
+    margin-block: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 430;
+    font-style: normal;
+    font-size: 1.5rem;
+    max-width: 400px;
+  }
+  
+  form {
+    margin: 50px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
+  
+  form > input {
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 3px #5d04d9;
+    outline: none;
+  }
+  
+  form div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+  }
+  
+  form button {
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    max-width: 300px;
+    width: 45%;
+    padding-block: 10px;
+    cursor: pointer;
+  }
+  
+  form button:nth-child(1) {
+    background-color: #03308c;
+    color: #fff;
+  }
+  
+  form button:nth-child(2) {
+    border: solid 1px #03308c;
+    color: #03308c;
+  }
+  
+  input::placeholder {
+    color: #5d04d9;
+    opacity: 1;
+  }
+  
+  .container {
+    margin: auto;
+    width: 98%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .cardContainer {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    box-shadow: #ccbaba 3px 4px 0px 0px;
+    width: 150px;
+    max-width: 300px;
+    background-color: #5d04d9;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .card-title {
+    color: #fff;
+    padding-block: 5px;
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 5px;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  span {
+    cursor: pointer;
+    padding: 2px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #9303a6;
+    margin-top: 50px;
+  }
+  
+  footer section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer section div h1 {
+    color: #fff;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 430;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  footer section div img {
+    width: 100px;
+  }
+  
+  footer section p {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  @media (min-width: 1100px) {
+    .container {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      max-width: 1200px;
+    }
+  
+    .cardContainer {
+      justify-content: start;
+    }
+    #title {
+      display: none;
+    }
+  
+    form {
+      width: 500px;
+    }
+  }
+  .found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .found h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 430;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .found img {
+    width: 100px;
+  }
